@@ -87,111 +87,111 @@ function init() {
         switch (input) {
             case 'a':
                 color = new THREE.Color(0xFFBF00); // amber
-                colorName = 'Amber';
+                colorName = 'amber';
                 break;
             case 'b':
                 color = new THREE.Color(0x0000ff); // Blue
-                colorName = 'Blue';
+                colorName = 'blue';
                 break;
             case 'c': 
                 color = new THREE.Color(0xff0040); // crimson
-                colorName = 'Crimson';
+                colorName = 'crimson';
                 break;
             case 'd':
                 color = new THREE.Color(0xFED85D); // dandelion
-                colorName = 'Dandelion';
+                colorName = 'dandelion';
                 break;
             case 'e':
                 color = new THREE.Color(0x50C878); // emerald
-                colorName = 'Emerald';
+                colorName = 'emerald';
                 break;
             case 'f': 
                 color = new THREE.Color(0xFF00FF); // fuschia
-                colorName = 'Fuschia';
+                colorName = 'fuschia';
                 break;
             case 'g':
                 color = new THREE.Color(0x00ff00); // Green
-                colorName = 'Green';
+                colorName = 'green';
                 break;
             case 'h':
                 color = new THREE.Color(0xFF69B4); // hot pink
-                colorName = 'Hot Pink';
+                colorName = 'hot pink';
                 break;
             case 'i':
                 color = new THREE.Color(0x6A5DFF); // indigo
-                colorName = 'Indigo';
+                colorName = 'indigo';
                 break;
             case 'j':
                 color = new THREE.Color(0x343434); // jet
-                colorName = 'Jet';
+                colorName = 'jet';
                 break;
             case 'k':
                 color = new THREE.Color(0xE8F48C); // key lime
-                colorName = 'Key Lime';
+                colorName = 'key lime';
                 break;
             case 'l':
                 color = new THREE.Color(0xB57EDC); // lavender
-                colorName = 'Lavender';
+                colorName = 'lavender';
                 break;
             case 'm':
                 color = new THREE.Color(0xF653A6); // magenta
-                colorName = 'Magenta';
+                colorName = 'magenta';
                 break;
             case 'n':
                 color = new THREE.Color(0x000080); // navy blue
-                colorName = 'Navy Blue';
+                colorName = 'navy blue';
                 break;
             case 'o':
                 color = new THREE.Color(0xFFA500); // orange
-                colorName = 'Orange';
+                colorName = 'orange';
                 break;
             case 'p':
                 color = new THREE.Color(0xFFC0CB); // pink
-                colorName = 'Pink';
+                colorName = 'pink';
                 break;
             case 'q':
                 color = new THREE.Color(0xA6A6A6); // quicksilver
-                colorName = 'Quicksilver';
+                colorName = 'quicksilver';
                 break;
             case 'r':
                 color = new THREE.Color(0xFF0000); // red
-                colorName = 'Red';
+                colorName = 'red';
                 break;
             case 's':
                 color = new THREE.Color(0x00FFCD); // sea green
-                colorName = 'Sea Green';
+                colorName = 'sea green';
                 break;
             case 't':
                 color = new THREE.Color(0x008080); // teal
-                colorName = 'Teal';
+                colorName = 'teal';
                 break;
             case 'u':
                 color = new THREE.Color(0x3F00FF); // ultramarine
-                colorName = 'Ultramarine';
+                colorName = 'ultramarine';
                 break;
             case 'v':
                 color = new THREE.Color(0x8F00FF); // purple
-                colorName = 'Violet';
+                colorName = 'violet';
                 break;
             case 'w':
                 color = new THREE.Color(0xFFFFFF); // olive
-                colorName = 'White';
+                colorName = 'white';
                 break;
             case 'x':
                 color = new THREE.Color(0xF1B42F); // xanthous
-                colorName = 'Xanthous';
+                colorName = 'xanthous';
                 break;
             case 'y':
                 color = new THREE.Color(0xffff00); // Yellow
-                colorName = 'Yellow';
+                colorName = 'yellow';
                 break;
             case 'z':
                 color = new THREE.Color(0xE9CAB7); // zinnwaldite
-                colorName = 'Zinnwaldite';
+                colorName = 'zinnwaldite';
                 break;
             default:
                 color = new THREE.Color(0xffffff); // Default to white if input is invalid
-                colorName = 'White';
+                colorName = 'white';
                 break;
         }
 
@@ -210,111 +210,111 @@ function init() {
         switch (input) {
             case 'a':
                 color = new THREE.Color(0xFFBF00); // amber
-                colorName = 'Amber';
+                colorName = 'amber';
                 break;
             case 'b':
                 color = new THREE.Color(0x0000ff); // Blue
-                colorName = 'Blue';
+                colorName = 'blue';
                 break;
             case 'c': 
                 color = new THREE.Color(0xff0040); // crimson
-                colorName = 'Crimson';
+                colorName = 'crimson';
                 break;
             case 'd':
                 color = new THREE.Color(0xFED85D); // dandelion
-                colorName = 'Dandelion';
+                colorName = 'dandelion';
                 break;
             case 'e':
                 color = new THREE.Color(0x50C878); // emerald
-                colorName = 'Emerald';
+                colorName = 'emerald';
                 break;
             case 'f': 
                 color = new THREE.Color(0xFF00FF); // fuschia
-                colorName = 'Fuschia';
+                colorName = 'fuschia';
                 break;
             case 'g':
                 color = new THREE.Color(0x00ff00); // Green
-                colorName = 'Green';
+                colorName = 'green';
                 break;
             case 'h':
                 color = new THREE.Color(0xFF69B4); // hot pink
-                colorName = 'Hot Pink';
+                colorName = 'hot pink';
                 break;
             case 'i':
                 color = new THREE.Color(0x6A5DFF); // indigo
-                colorName = 'Indigo';
+                colorName = 'indigo';
                 break;
             case 'j':
                 color = new THREE.Color(0x343434); // jet
-                colorName = 'Jet';
+                colorName = 'jet';
                 break;
             case 'k':
                 color = new THREE.Color(0xE8F48C); // key lime
-                colorName = 'Key Lime';
+                colorName = 'key lime';
                 break;
             case 'l':
                 color = new THREE.Color(0xB57EDC); // lavender
-                colorName = 'Lavender';
+                colorName = 'lavender';
                 break;
             case 'm':
                 color = new THREE.Color(0xF653A6); // magenta
-                colorName = 'Magenta';
+                colorName = 'magenta';
                 break;
             case 'n':
                 color = new THREE.Color(0x000080); // navy blue
-                colorName = 'Navy Blue';
+                colorName = 'navy blue';
                 break;
             case 'o':
                 color = new THREE.Color(0xFFA500); // orange
-                colorName = 'Orange';
+                colorName = 'orange';
                 break;
             case 'p':
                 color = new THREE.Color(0xFFC0CB); // pink
-                colorName = 'Pink';
+                colorName = 'pink';
                 break;
             case 'q':
                 color = new THREE.Color(0xA6A6A6); // quicksilver
-                colorName = 'Quicksilver';
+                colorName = 'quicksilver';
                 break;
             case 'r':
                 color = new THREE.Color(0xFF0000); // red
-                colorName = 'Red';
+                colorName = 'red';
                 break;
             case 's':
                 color = new THREE.Color(0x00FFCD); // sea green
-                colorName = 'Sea Green';
+                colorName = 'sea green';
                 break;
             case 't':
                 color = new THREE.Color(0x008080); // teal
-                colorName = 'Teal';
+                colorName = 'teal';
                 break;
             case 'u':
                 color = new THREE.Color(0x3F00FF); // ultramarine
-                colorName = 'Ultramarine';
+                colorName = 'ultramarine';
                 break;
             case 'v':
-                color = new THREE.Color(0x8F00FF); // violet
-                colorName = 'Violet';
+                color = new THREE.Color(0x8F00FF); // purple
+                colorName = 'violet';
                 break;
             case 'w':
                 color = new THREE.Color(0xFFFFFF); // olive
-                colorName = 'White';
+                colorName = 'white';
                 break;
             case 'x':
                 color = new THREE.Color(0xF1B42F); // xanthous
-                colorName = 'Xanthous';
+                colorName = 'xanthous';
                 break;
             case 'y':
                 color = new THREE.Color(0xffff00); // Yellow
-                colorName = 'Yellow';
+                colorName = 'yellow';
                 break;
             case 'z':
                 color = new THREE.Color(0xE9CAB7); // zinnwaldite
-                colorName = 'Zinnwaldite';
+                colorName = 'zinnwaldite';
                 break;
             default:
                 color = new THREE.Color(0xffffff); // Default to white if input is invalid
-                colorName = 'White';
+                colorName = 'white';
                 break;
         }
 
