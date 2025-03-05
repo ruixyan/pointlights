@@ -166,12 +166,12 @@ function init() {
                 colorName = 'Teal';
                 break;
             case 'u':
-                color = new THREE.Color(0x3F00FF); // yellow
-                colorName = 'Yellow';
+                color = new THREE.Color(0x3F00FF); // ultramarine
+                colorName = 'Ultramarine';
                 break;
             case 'v':
                 color = new THREE.Color(0x8F00FF); // purple
-                colorName = 'Purple';
+                colorName = 'Violet';
                 break;
             case 'w':
                 color = new THREE.Color(0xFFFFFF); // olive
@@ -289,12 +289,12 @@ function init() {
                 colorName = 'Teal';
                 break;
             case 'u':
-                color = new THREE.Color(0x3F00FF); // yellow
-                colorName = 'Yellow';
+                color = new THREE.Color(0x3F00FF); // ultramarine
+                colorName = 'Ultramarine';
                 break;
             case 'v':
-                color = new THREE.Color(0x8F00FF); // purple
-                colorName = 'Purple';
+                color = new THREE.Color(0x8F00FF); // violet
+                colorName = 'Violet';
                 break;
             case 'w':
                 color = new THREE.Color(0xFFFFFF); // olive
