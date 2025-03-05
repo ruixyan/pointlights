@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import Stats from 'three/addons/libs/stats.module.js';
 
+
 let camera, scene, renderer, controls;
 let whiteLight, coloredLight;
 let stats;
@@ -18,9 +19,21 @@ function init() {
     // Set up the scene
     scene = new THREE.Scene();
 
+    // Add an ambient light to the scene
+    const ambientLight = new THREE.AmbientLight(0x404040, 0.4); // Soft white light
+    scene.add(ambientLight);
+
     // Add a grey sphere to the scene
     const geometry = new THREE.SphereGeometry(20, 60, 60);
-    const material = new THREE.MeshPhongMaterial({ color: 0x808080 }); // Grey color
+    const material = new THREE.MeshPhysicalMaterial({
+        color: 0xA9A9A9, // Base color
+        transmission: 0, // How much light passes through (0 = opaque, 1 = fully transparent)
+        thickness: 0.5, // Thickness of the object (affects light scattering)
+        roughness: 0.4, // Surface roughness (0 = smooth, 1 = rough)
+        ior: 1.0, // Index of refraction (e.g., 1.5 for glass)
+        clearcoat: 0.5, // Clear coat layer (optional)
+        clearcoatRoughness: 0 // Roughness of the clear coat (optional)
+    });
     const sphere = new THREE.Mesh(geometry, material);
     scene.add(sphere);
 
@@ -69,7 +82,7 @@ function init() {
     Input1.addEventListener('input', (event) => {
         const input = event.target.value.toLowerCase(); // Get the input and convert to lowercase
         let color, colorName;
-    
+
         // Map input to a color
         switch (input) {
             case 'a':
@@ -181,19 +194,18 @@ function init() {
                 colorName = 'White';
                 break;
         }
-    
+
         coloredLight.color.set(color); // Update coloredLight's color
         colorInfo1.textContent = `${colorName} (#${color.getHexString()})`; // Update color info
-    
-    
+
         // Update the PointLightHelper
         coloredLightHelper.update(); // Refresh the helper
     });
-    
+
     Input2.addEventListener('input', (event) => {
         const input = event.target.value.toLowerCase(); // Get the input and convert to lowercase
         let color, colorName;
-    
+
         // Map input to a color
         switch (input) {
             case 'a':
@@ -305,10 +317,10 @@ function init() {
                 colorName = 'White';
                 break;
         }
-        
+
         whiteLight.color.set(color); // Update coloredLight's color
         colorInfo2.textContent = `${colorName} (#${color.getHexString()})`; // Update color info
-    
+
         // Update the PointLightHelper
         whiteLightHelper.update(); // Refresh the helper
     });
